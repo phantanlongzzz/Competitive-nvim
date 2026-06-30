@@ -1,13 +1,10 @@
 return {
     {
         "xeluxee/competitest.nvim",
-
         lazy = false,
-
         dependencies = {
             "MunifTanjim/nui.nvim",
         },
-
         config = function()
             require("competitest").setup({
                 template_file = {
@@ -30,16 +27,15 @@ return {
                             "-Wall",
                             "$(FNAME)",
                             "-o",
-                            "$(FNOEXT)",
+                            "$(FNOEXT).exe", -- Thêm thẳng .exe vào đây để g++ xuất ra file chuẩn Windows
                         },
                     },
                 },
 
                 run_command = {
                     cpp = {
-                        exec = "$(FNOEXT).exe",
+                        exec = "$(FNOEXT).exe", -- Bỏ ./ đi, chỉ để tên file .exe
                     },
-
                     py = {
                         exec = "python",
                         args = { "$(FNAME)" },
