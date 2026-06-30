@@ -15,4 +15,4 @@ opt.termguicolors = true
 
 opt.clipboard = "unnamedplus"
 
-vim.cmd("cd E:/CompetitiveProgramming/cf")
+vim.cmd("cd E:/CompetitiveProgramming/Code")
