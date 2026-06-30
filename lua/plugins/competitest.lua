@@ -18,6 +18,9 @@ return {
                     interface = "split",
                 },
 
+                testcases_directory = "testcases", 
+                testcases_use_single_file = false,
+
                 compile_command = {
                     cpp = {
                         exec = "g++",
@@ -27,14 +30,14 @@ return {
                             "-Wall",
                             "$(FNAME)",
                             "-o",
-                            "$(FNOEXT).exe", -- Thêm thẳng .exe vào đây để g++ xuất ra file chuẩn Windows
+                            "bin/$(FNOEXT).exe", 
                         },
                     },
                 },
 
                 run_command = {
                     cpp = {
-                        exec = "$(FNOEXT).exe", -- Bỏ ./ đi, chỉ để tên file .exe
+                        exec = "bin/$(FNOEXT).exe",
                     },
                     py = {
                         exec = "python",
