@@ -76,7 +76,7 @@ return {
                 virtual_text = { prefix = "●" }, -- Hiện chữ báo lỗi mờ cuối dòng
                 signs = true,                    -- Hiện chữ E, W ở rìa trái màn hình
                 underline = true,                -- Gạch chân đoạn code bị lỗi
-                update_in_insert = true,         -- Báo lỗi NGAY TRONG LÚC ĐANG GÕ
+                update_in_insert = true,
             })
 
             -- Kích hoạt Clangd hoạt động

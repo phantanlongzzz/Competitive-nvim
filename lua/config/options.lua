@@ -15,4 +15,10 @@ opt.termguicolors = true
 
 opt.clipboard = "unnamedplus"
 
+
+vim.o.signcolumn = "yes"
+
+vim.opt.numberwidth = 2
+
+
 vim.cmd("cd E:/CompetitiveProgramming/Code")
