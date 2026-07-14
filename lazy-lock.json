@@ -3,15 +3,12 @@
   "cmp-nvim-lsp": { "branch": "main", "commit": "cbc7b02bb99fae35cb42f514762b89b5126651ef" },
   "cmp-path": { "branch": "main", "commit": "c642487086dbd9a93160e1679a1327be111cbc25" },
   "competitest.nvim": { "branch": "master", "commit": "b42c06ca308906f07912ba9aff015ac2c0831f85" },
-  "dracula.nvim": { "branch": "main", "commit": "ae752c13e95fb7c5f58da4b5123cb804ea7568ee" },
-  "gruvbox-material": { "branch": "master", "commit": "11d779b26a9ab2b3db8c22c6ac9fb6e8ed4fea79" },
-  "lackluster.nvim": { "branch": "main", "commit": "70dd682e564784893b984deb51dd5ddd263c8cc7" },
+  "koda.nvim": { "branch": "main", "commit": "a7da3ced59eadafbda6eb4d7f7e2a6a3d9ecf858" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
-  "lualine.nvim": { "branch": "master", "commit": "221ce6b2d999187044529f49da6554a92f740a96" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
   "nvim-autopairs": { "branch": "master", "commit": "7b9923abad60b903ece7c52940e1321d39eccc79" },
   "nvim-cmp": { "branch": "main", "commit": "a1d504892f2bc56c2e79b65c6faded2fd21f3eca" },
   "nvim-lspconfig": { "branch": "master", "commit": "3371bf298c1f56efc26771ee961f461176958fb5" },
   "nvim-notify": { "branch": "master", "commit": "8701bece920b38ea289b457f902e2ad184131a5d" },
-  "nvim-web-devicons": { "branch": "master", "commit": "dfbfaa967a6f7ec50789bead7ef87e336c1fa63c" }
+  "solarized.nvim": { "branch": "master", "commit": "fe02ed49cc017cc93657bd6306a2624394611c69" }
 }
