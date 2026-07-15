@@ -14,8 +14,8 @@ opt.termguicolors = true    -- Bật màu sắc 24-bit (giúp giao diện chuẩ
 -------------------------------------------------------------------------------
 -- 2. Cấu hình Tab và Thụt lề (Thích hợp cho C/C++, Java)
 -------------------------------------------------------------------------------
-opt.tabstop = 2             -- 1 tab bằng 4 khoảng trắng
-opt.shiftwidth = 2          -- Kích thước thụt lề khi dùng lệnh > hoặc <
+opt.tabstop = 4            -- 1 tab bằng 4 khoảng trắng
+opt.shiftwidth = 4          -- Kích thước thụt lề khi dùng lệnh > hoặc <
 opt.expandtab = true        -- Chuyển đổi Tab thành dấu cách tự động
 opt.smartindent = true      -- Tự động căn lề thông minh khi xuống dòng mới
 
@@ -40,24 +40,12 @@ vim.api.nvim_create_autocmd("VimEnter", {
     desc = "Tu dong chuyen den thu muc Codeforces khi mo nvim trong",
     callback = function()
         if vim.fn.argc() == 0 then
-            vim.cmd("cd D:\\stream\\cf")
+            vim.cmd("cd D:\\programming\\CF")
         end
     end,
 })
 
 
--------------------------------------------------------------------------------
--- 5. Cấu hình Màu sắc (Colorscheme & Highlights)
--------------------------------------------------------------------------------
--- vim.api.nvim_create_autocmd("ColorScheme", {
---     group = vim.api.nvim_create_augroup("CustomLineNumberColor", { clear = true }),
---     pattern = "*",
---     callback = function()
---         -- Áp dụng màu vàng Gold đậm và chữ đậm cho số dòng
---         vim.api.nvim_set_hl(0, "LineNr", { fg = "#D4AF37", bold = true })
---         vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#D4AF37", bold = true })
---     end,
--- })
 
 -------------------------------------------------------------------------------
 -- 6. TÍNH NĂNG BỔ SUNG: Tự động lưu file khi mất focus (Rất cần khi cày thuật toán)
