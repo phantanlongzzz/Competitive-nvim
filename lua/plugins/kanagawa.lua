@@ -26,7 +26,7 @@ return {
                   })
 
                   -- Kích hoạt theme
-                  vim.cmd("colorscheme kanagawa")
+                  ---vim.cmd("colorscheme kanagawa")
             end,
       },
 }

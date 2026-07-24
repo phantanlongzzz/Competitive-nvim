@@ -39,4 +39,4 @@ vim.api.nvim_create_autocmd({ "FocusLost", "BufLeave" }, {
     command = "silent! wa",
 })
 
----vim.cmd("colorscheme retrobox")
+vim.cmd("colorscheme retrobox")
